@@ -1,6 +1,36 @@
 .userPanel{
     display: flex;
+    flex-direction:row;
+    background-color: rgb(22, 228, 224);
+    margin: 10px;
+    width: 30vw;
+    height: 25vh;
+    padding: 10px 15px;
+    border-radius: 20px;
+   
+
+}
+.container{
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    
+}
+
+#gallery_view{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width:70vw ;
+}
+.info{
+    display: flex;
     flex-direction: column;
-    width: 200px;
-    height: fit-content;
+    padding-left: 10px;
+
+}
+.images_id{
+    border-radius: 50%;
 }

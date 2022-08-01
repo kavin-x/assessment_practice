@@ -3,9 +3,22 @@
     flex-direction: row;
     justify-content: space-between;
     height: 50px;
+    background-color: black;
 }
 .header img{
     width: 50px;
     height: fit-content;
 
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-right: 20px;
+
+}
+.links a{
+    color: white;
+    text-decoration: none;
 }

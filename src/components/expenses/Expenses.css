@@ -1,0 +1,44 @@
+.container_e{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: aqua;
+    max-width: 50vw;
+    position: relative;
+    left: 25vw;
+    border-radius: 25px;
+}
+.userpanel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+  
+}
+#exp_div{
+    display: flex;
+    flex-direction: row;
+
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(22, 228, 224);
+}
+#add_btn{
+    background-color: aqua;
+    border: 1px solid rgb(3, 92, 92);
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+.user_image{
+    border-radius: 25px;
+}
+.user_image:hover{
+    transform: scale(1.01);
+}
