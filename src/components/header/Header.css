@@ -1,0 +1,10 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header img{
+    width: 50px;
+    height: fit-content;
+
+}
