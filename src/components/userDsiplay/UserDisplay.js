@@ -8,6 +8,9 @@ function UserDisplay() {
     const fetchData = async () => {
       let response = await fetch(userDataUrl);
       let data = await response.json();
+      data.results.forEach(element => {
+        element.expenses="$20000"
+      });
       setuserData(data.results);
       localStorage.setItem("userData", JSON.stringify(data.results));
     };
@@ -24,6 +27,7 @@ function UserDisplay() {
           <h1>{`${user.name.title} ${user.name.first} ${user.name.last}`}</h1>
           <span>{user.location.city}</span>
           <span>{user.email}</span>
+          <span>{user.expenses}</span>
         </div>
       ))}
     </div>
